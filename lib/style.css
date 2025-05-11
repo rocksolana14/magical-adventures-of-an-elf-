@@ -1,0 +1,285 @@
+/* Add your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body{
+  overflow: hidden;
+}
+h1,h2{
+  text-align: center;
+  font-size:40px;
+  color: white;
+  font-family: "Marck Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+h1::before{
+  content: "🧝🏻";
+}
+.sect-1{
+  background: url(https://img.freepik.com/free-photo/beautiful-medieval-fantasy-landscape-with-city_23-2150916336.jpg?t=st=1746549681~exp=1746553281~hmac=ea33d9d542fc33eaa4633f0cd9c1c51a464041730e54e080f36ff16bafaec147&w=1380) no-repeat center center / cover;
+  padding: 40px;
+ 
+}
+.start-1{
+  text-decoration: none;
+  color:black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.start-1 a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+
+.charct-1 {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.charct-1 .b1:hover, .charct-1 .b2:hover, .charct-1 .b3:hover {
+  transform: rotateY(40deg);
+  transition: 0.5s ease-in;
+  transform: scaleZ(40deg);
+}
+
+.charct-1 .b1:focus, .charct-1 .b2:focus, .charct-1 .b3:focus {
+  border:solid white 6px;
+}
+
+.charct-1 .b1, .charct-1 .b2, .charct-1 .b3 {
+  background-position: center;
+  background-size: 150px 150px;
+  border-radius: 50%;
+  transition: 1s ease-in;
+  width: 150px;
+  height: 150px;
+  box-shadow: 10px 10px 10px 5px gray;
+  margin: 0 25px 0 25px;
+  cursor: pointer;
+  font-family: Arial,Helvetica,sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.charct-1 .b1 {
+  background-image: url("https://img.freepik.com/free-photo/fantasy-scene-with-human-like-surreal-character_23-2151254458.jpg?t=st=1746950178~exp=1746953778~hmac=7bc12921d65682a8f2a7fa5c3a2b5baaea1d61be75dc994826b7627cab9a6fd3&w=1380");
+}
+
+.charct-1 .b2 {
+  background-image: url("https://img.freepik.com/free-photo/fantasy-anime-style-scene_23-2151135138.jpg?t=st=1746950657~exp=1746954257~hmac=7e79ae9d4aab9249ea84bb561fd0656e1553d4bccec3454305df4a02d6c0e9f4&w=740");
+}
+
+.charct-1 .b3 {
+  background-image: url("https://img.freepik.com/free-photo/portrait-mystical-leprechaun-character-surrounded-by-nature-vegetation_23-2150251031.jpg?t=st=1746950832~exp=1746954432~hmac=37deb8f891ee6ce9f54d4514d9dc2688874762806c1b5a5ba13c0fa300c8f283&w=740");
+}
+
+section{
+  margin-bottom: 1000px;
+}
+
+body{
+  background-color:thistle;
+}
+.start{
+  text-decoration: none;
+  color:black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+.start a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+
+.start:hover a{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  background-color:rgb(142, 121, 161) ;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;  
+}
+.a-1{
+  text-align: center;
+  font-size: 30px ;
+}
+.a-2{
+  text-align: center;
+  font-size: 20px;
+}
+
+.back{
+  text-decoration: none;
+  color:black;
+  padding: 0px 0px 10px 0px;
+  border-radius: 10px;
+  text-align: center;  
+}
+.img-1{
+  text-align: center;
+}
+
+.img-1 img{
+  width: 400px;
+  margin-top:20px ;
+}
+
+.back-1{
+  text-decoration: none;
+    color:black;
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.back-1 a{
+  border: solid black 2px;
+  line-height: 5em;
+}
+.respond-1 a{
+  text-decoration: none;
+  color:black;
+  background-color:rgb(142, 121, 161) ;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align:center;
+  border: black;
+}
+
+.sheet{
+  background: url(https://img.freepik.com/free-psd/parchment-paper-isolated_23-2151874488.jpg?t=st=1746731809~exp=1746735409~hmac=dc68167e6cb46669c9232caac43e56ce057d708ef31647a3e853fe2b994e077a&w=1380) no-repeat center center / cover;
+  padding: 90px;
+  text-align: center;
+}
+.scena-14{
+  background: url(https://img.freepik.com/free-photo/door-stretching-into-fantasy-world_23-2151661301.jpg?t=st=1746824464~exp=1746828064~hmac=f7344d7ad6ed7466f40e8eabef424a2ad8149cc065a2c774ff7748afd73233a2&w=996) no-repeat center center / cover;
+  padding: 75px;
+}
+.scena-15{
+  background: url(https://img.freepik.com/free-photo/fantasy-endless-hole-landscape_23-2151639657.jpg?t=st=1746824561~exp=1746828161~hmac=6ad7c72a2fa1778c2b1a762d08f580bddddc067bd43d065907960c1980e38ede&w=740)no-repeat center center / cover;
+  padding: 150px;
+}
+
+.sheet p{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+}
+.scena-6{
+  background: url(https://img.freepik.com/free-photo/portrait-scandinavian-female-viking-person_23-2151707011.jpg?t=st=1746733623~exp=1746737223~hmac=806242950524c339567e2ca38afe8547ed325a55e31cb95778c5cf44d4ef79ab&w=1380)no-repeat center center / cover;
+  padding: 40px;
+}
+.scena-7{
+  background: url(https://img.freepik.com/free-photo/view-futuristic-urban-city_23-2150842770.jpg?t=st=1746733940~exp=1746737540~hmac=03ebaee8d5cf64e328292a873a1c0f318d1d37c4c0651f9d219c8a70f738e113&w=740)no-repeat center center / cover;
+  padding: 150px;
+}
+
+.heroy{
+  text-align: center;
+}
+.scena-13{
+  background: url(https://img.freepik.com/free-photo/portrait-scandinavian-female-viking-person_23-2151707027.jpg?t=st=1746822694~exp=1746826294~hmac=50886398ab7562392620fa9b25d36775bd00ec3d9b60bf0a209dc2e0c8014abd&w=1380)no-repeat center center / cover;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.variant a{
+  text-align:center;
+  padding: 13px;
+  margin-left:30px ;
+}
+
+.scena-8{
+  background:url(https://img.freepik.com/free-photo/fantasy-group-adventurers_23-2151470662.jpg?t=st=1746777175~exp=1746780775~hmac=bcef4e70d73b36b853a9ff451bbd3ac5bfae435c56fc619b30a4cb127dfc45c0&w=1380)no-repeat center center / cover ;
+  padding: 100px;
+}
+.img-10 img{
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.img-11{
+  margin-left: 100px;
+  width: 300px;
+}
+.img-11{
+  width: 300px;
+  height: 50px;
+}
+.respond-1{
+  text-decoration: none;
+  color:black;
+  background-color:rgb(142, 121, 161) ;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align:center;
+  padding: 10px 10px 10px 10px;
+}
+
+.back a{
+  border: solid black 2px;
+}
+
+.scena-3{
+  background: url(https://img.freepik.com/free-photo/mythical-video-game-inspired-landscape-with-human_23-2150974327.jpg?t=st=1746720106~exp=1746723706~hmac=e3a4e0b942a6b21bcb8cfe8c4b4031eba6f0c691bc338672b407dabcbfe7f3a1&w=740) no-repeat center center / cover;
+  padding: 100px;
+}
+
+a:hover{
+   background-color:rgb(171, 120, 171);
+   border:solid white 2px ;
+   color: white;
+}
+
+img{
+  width:370px ;
+  border-radius: 10px;
+}
+
+.list{
+  font-size:20px ;
+  color: white;
+}
+
+p,li{
+  color: white;
+  font-family: "Yrsa", serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-size: 20px;
+}
+ .sect-2{
+   background: url(https://img.freepik.com/free-photo/mythical-video-game-inspired-landscape-with-human-nature_23-2150974578.jpg?t=st=1746551550~exp=1746555150~hmac=3e4352cda91569638450f66cda8097b5ed99634f26bcc8990e175bb0dde4c5f7&w=1380) no-repeat center center / cover;
+   padding: 100px;
+   
+ }
+ 
+ .scena-10{
+   background: url(https://img.freepik.com/free-photo/vertical-shot-forested-mountains-cloudy-sky-daytime_181624-4837.jpg?t=st=1746814309~exp=1746817909~hmac=7657a5d72ab070170c9479f486700be9e326904440e031d55648d9d377079013&w=740) no-repeat center center / cover;
+   padding: 150px;
+ }
+
+ .variant-10 {
+  line-height: 3em;
+  text-align: center;
+ }
+ .scena-12{
+   background: url(https://img.freepik.com/free-photo/door-stretching-into-fantasy-world_23-2151661247.jpg?t=st=1746820216~exp=1746823816~hmac=23d061128c3bdc6df074e27945a3fbeb796cd7f5e42da3705a28421d755e4ac2&w=996) no-repeat center center / cover;
+   padding: 110px;
+ }
+
